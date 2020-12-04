@@ -3,18 +3,21 @@ const fs = require("fs");
 
 inquirer
     .prompt([
-        {type: "input", name: "title", message: "enter project title"},
+        {type: "input", name: "projectTitle", message: "enter project title"},
         {type: "input", name: "description", message: "enter project description"},
         {type: "input", name: "installation", message: "enter installation instructions"},
         {type: "input", name: "usageInfo", message: "enter usage information"},
         {type: "input", name: "constribution", message: "enter contribution guidelines"},
         {type: "input", name: "test", message: "enter test instructions"},
-        {type: "list", name: "license", message: "select a license type", choices['MIT', ]},
+        {type: "list", name: "license", message: "select license type", choices: ['MIT', '2']},
+        {type: "input", name: "gitHubUser", message: "enter github user name"},
+        {type: "input", name: "email", message: "enter your email address"},
+        {type: "input", name: "test", message: "enter test instructions"},
         /* Pass your questions in here */
     ])
-    .then(({testInput, testInput3}) => {
+    .then(({projectTitle, description}) => {
         const readme = 
-        `# ${testInput} 09 Node.js Homework: Professional README Generator`;
+        `# ${projectTitle} 09 Node.js Homework: Professional README Generator`;
 
         
         
