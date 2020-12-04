@@ -6,13 +6,12 @@
 ${description}
 
 ## Table of Contents
-* Installation Instructions
-* Usage Information
-* Contribution Guidelines
-* License Type
-* Test Instructions
-* Questions
-
+* [Installation Instructions](#installation-instructions)
+* [Usage Information](#usage-information)
+* [Contribution Guidelines](#contribution-guidelines)
+* [License Type](#license-type)
+* [Test Instructions](#test-instructions)
+* [Questions](#questions)
 
 ## Installation Instructions
 ${installation}
