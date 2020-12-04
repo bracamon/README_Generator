@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(response) {
-    return `# ${response.title}
+    return `
 
 [![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-blue.svg)](https://opensource.org/licenses/${response.license})
 
